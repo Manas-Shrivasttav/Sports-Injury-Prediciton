@@ -84,7 +84,7 @@ Raw Sample Data (17 variables)
   │                                              │
   │  ┌─────────────┐  ┌─────────────┐            │
   │  │  AdaBoost   │  │   XGBoost   │            │
-  │  │  ← BEST    │  │             │             │
+  │  │  ← BEST     │  │             │            │
   │  └─────────────┘  └─────────────┘            │
   │  ┌─────────────┐  ┌─────────────┐            │
   │  │   Random    │  │    DNN      │            │
@@ -157,8 +157,6 @@ Based on AdaBoost predictions, the following actionable strategies are recommend
 │   └── neural_network_model.py      # Deep Neural Network (Keras)
 ├── data/
 │   └── DATA_README.md               # Dataset description & generation guide
-├── report/
-│   └── Capstone_Report.pdf          # Full MBA capstone report
 └── README.md
 ```
 
@@ -238,4 +236,4 @@ The original dataset was generated using [Gretel.ai](https://gretel.ai). See `da
 
 ## 📄 License
 
-MIT License — open for academic and research use.
+Open for academic and research use.
