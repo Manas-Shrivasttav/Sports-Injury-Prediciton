@@ -10,11 +10,11 @@
 
 ## 🧠 Project Overview
 
-Football players are among the highest-risk athletes for injury — ACL tears, hamstring strains, lower back pain, and sprained ankles alone account for a significant proportion of professional career disruptions. Yet most clubs still rely on reactive treatment rather than proactive prediction.
+Football players are among the highest-risk athletes for injury - ACL tears, hamstring strains, lower back pain, and sprained ankles alone account for a significant proportion of professional career disruptions. Yet most clubs still rely on reactive treatment rather than proactive prediction.
 
 This project builds and compares **four machine learning and deep learning models** to predict which type of injury a professional football player is likely to sustain, using 17 player-specific variables including training load, physical metrics, game conditions, and medical history.
 
-The best-performing model — **AdaBoost** — provides coaches and medical staff with actionable, early-warning injury predictions, enabling personalised prevention strategies before injuries occur.
+The best-performing model - **AdaBoost** - provides coaches and medical staff with actionable, early-warning injury predictions, enabling personalised prevention strategies before injuries occur.
 
 ---
 
@@ -37,7 +37,7 @@ The best-performing model — **AdaBoost** — provides coaches and medical staf
 | Class distribution | ACL Tear: 1,392 · Hamstring: 1,443 · Sprained Ankle: 1,363 · Lower Back Pain: 802 |
 
 ### Why Synthetic Data?
-Real-world football injury data is scarce, private, and ethically constrained. Synthetic data generated via ACTGAN (Adversarial Conditional Generative Adversarial Network) mimics the statistical properties of real injury data while preserving privacy — enabling a sufficiently large dataset for model training.
+Real-world football injury data is scarce, private, and ethically constrained. Synthetic data generated via ACTGAN (Adversarial Conditional Generative Adversarial Network) mimics the statistical properties of real injury data while preserving privacy - enabling a sufficiently large dataset for model training.
 
 ### Feature Variables
 
@@ -114,7 +114,7 @@ Raw Sample Data (17 variables)
 
 **AdaBoost outperformed all models** across every metric and was selected as the primary model.
 
-### AdaBoost — Per-Class Results
+### AdaBoost - Per-Class Results
 
 | Injury Type | Precision | Recall | F1-Score | AUC |
 |---|---|---|---|---|
@@ -151,7 +151,7 @@ Based on AdaBoost predictions, the following actionable strategies are recommend
 
 ```
 ├── notebooks/
-│   ├── adaboost_model.py            # Best model — AdaBoost ← start here
+│   ├── adaboost_model.py            # Best model - AdaBoost ← start here
 │   ├── random_forest_model.py       # Random Forest classifier
 │   ├── xgboost_model.py             # XGBoost classifier
 │   └── neural_network_model.py      # Deep Neural Network (Keras)
