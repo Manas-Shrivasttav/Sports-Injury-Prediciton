@@ -1,8 +1,8 @@
-# Data — Sports Injury Prediction Project
+# Data - Sports Injury Prediction Project
 
 ## Overview
 
-The dataset used in this project is **synthetic** — generated using [Gretel.ai's](https://gretel.ai) ACTGAN model — due to the limited availability, ethical constraints, and privacy concerns around real-world sports injury data.
+The dataset used in this project is **synthetic** - generated using [Gretel.ai's](https://gretel.ai) ACTGAN model - due to the limited availability, ethical constraints, and privacy concerns around real-world sports injury data.
 
 ## Dataset Summary
 
@@ -12,7 +12,7 @@ The dataset used in this project is **synthetic** — generated using [Gretel.ai
 | Total records | 5,000 |
 | Features | 17 (16 independent + 1 target) |
 | Target classes | 4 injury types |
-| Generation tool | [Gretel.ai](https://gretel.ai) — ACTGAN |
+| Generation tool | [Gretel.ai](https://gretel.ai) - ACTGAN |
 
 ## Class Distribution
 
@@ -36,7 +36,7 @@ The dataset used in this project is **synthetic** — generated using [Gretel.ai
 To reproduce or extend the dataset:
 
 1. Create a sample CSV (minimum 50 rows per class) using the 17 variables below
-2. Sign up at [gretel.ai](https://gretel.ai) — free tier available
+2. Sign up at [gretel.ai](https://gretel.ai) - free tier available
 3. Create a new project → select **ACTGAN** model
 4. Upload your sample CSV as training data
 5. Set output record count to 5,000
